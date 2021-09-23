@@ -57,14 +57,16 @@
 }
   </style>
 </head>
-<body>
+<body class="container-fluid">
      <header>
-         <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:white;">
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-sm">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:white;padding: 0%;">
         <div class="navbar-brand" style="padding-left: 20px;">
-            <img src="./dlogo.png" height="100%" width="70">
+            <img src="./dlogo.png" height="90%" width="70">
         </div>
-        <button class="navbar-toggler" style="margin-right: 20px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" style="margin-right: 20px" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span><a>MENU</a></span>
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -130,15 +132,17 @@
         </div>
       </nav>
     </div>
+  </div>
+</div>
    </header>
- <div class="container-fluid" style="margin-top: 80px; padding: 0px;">
+ <div class="row" style="margin-top: 70px ;">
  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
-        <img src="./agaram_slider-s1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="./agaram_slider-s1.jpeg" class="img-fluid" alt="...">
       </div>
-      <div class="carousel-item" data-bs-interval="5000">
-        <img src="./agaram_slider-s2.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="./agaram_slider-s2.jpeg" class="img-fluid" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -152,22 +156,24 @@
   </div>
   </div>
     <div class="row mt-5">
-      <div class="col-sm-6">
+      <div class="col-sm">
         <h2 style="color: dimgray; padding-left: 50px;">Welcome To Agaram Foundation</h2>
         <p style="padding-left: 25px; text-align: justify;padding-top: 2em;">India is on the cusp of change. The country is marching into the 21st century, rightly proud of all its advancements in science and technology, its spectacular improvements in infrastructure and IT. And yet, we're weighed down by devastating inequalities, by a huge population that remains untouched by well- meaning acts like the Right to Education, and a large gender inequality. At Agaram, we want to make a difference in the lives of the millions who are not yet touched by education.</p>
       </div>
-      <div class="col-sm-6">
-        <img src="./video-jpeg" height="80%;">
+      <div class="col-sm">
+        <img src="./video-jpeg" width="100%">
       </div>
     </div>
-    <div class="row p-4"style="background:black;">
+    <div class="container-fluid" style="padding-top: 4%;">
+          <div class="row"style="background:black;">
         <h1 style="color:whitesmoke; text-align: center; padding:20px;font-family: Georgia, 'Times New Roman', Times, serif;">Vision</h1>
      <h6 style="color:whitesmoke; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">To bring about a significant positive change in the socio-economic status of the rural society by offering quality education to the deserving individual.</h6>
     </div>
-    <div class="container-fluid">
+    </div>
+    <div class="container-fluid p-0">
       <div class="row mt-5">
-    <div class="col-sm-5" style="align-items: center;">
-      <img src="./founder_surya.jpg">
+    <div class="col-sm" style="align-items: center;">
+      <img src="./founder_surya.jpg" width="90%">
     </div>
     <div class="col-sm">
       <h2 style="color: tomato;">Founders Message</h2>
@@ -178,7 +184,8 @@
     </div>
     </div>
     </div>
-    <footer class="row mt-5 bg-black">
+    <footer class="container-fluid p-0">
+    <div class="row mt-5 bg-black">
       <div class="col-sm-6" style="padding: 10% 20% 0% 30%;">
         <img src="./dlogo.png">
         <p style=" font-size:200%; color: darkorange;">#changealife</p>
@@ -196,6 +203,7 @@
 <div class="row">
   <p style="color: whitesmoke;">2021Agaram. All rights reserved. Powered By Gyso</p>
 </div>
-    </footer>
+</div>
+</footer>
   </body>
 </html>
